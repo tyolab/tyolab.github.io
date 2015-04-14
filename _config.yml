@@ -1,5 +1,6 @@
-url: https://tyolab.github.io
-baseurl: /web/
+#url: https://tyolab.github.io
+url: "http://localhost:4000"
+baseurl: "/"
 
 # Site settings
 title: TYO Lab
