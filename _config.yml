@@ -1,9 +1,10 @@
-# Site settings
-title: Grayscale
-email: support@domain.com
 #url: https://tyolab.github.io
 url: "http://localhost:4000"
-description: ""We are dedicated to providing advanced online technology to make life easier."
+
+# Site settings
+title: Grayscale
+email: support@tyo.com.au
+description: "Dedication to providing advanced online technologies that make life easy."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
