@@ -1,27 +1,30 @@
-#url: https://tyolab.github.io
-url: "http://localhost:4000"
-baseurl: "/"
-
 # Site settings
-title: TYO Lab
-email: support@tyo.com.au
-description: "We are dedicated to providing advanced online technology to make life easier." 
+title: Grayscale
+email: your-email@domain.com
+url: https://example.github.io
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
-links:
-  - name:         About
-    url:          /about
-  - name:         Blog
-    url:          http://www.tyo.com.au/blog
-    external:     true
-  - name:         Email
-    url:          mailto:support@tyo.com.au
-    external:     true
-  - name:         GitHub
-    url:          http://github.com/tyolab
-    external:     true
-highlighter:      pygments
-permalink:        pretty
-markdown:         redcarpet
-redcarpet:
-  extensions:
-    - smart
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Your Website
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/SBootstrap
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: https://github.com/IronSummitMedia/startbootstrap
+
+# Build settings
+markdown: kramdown
+permalink: pretty
