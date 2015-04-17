@@ -1,6 +1,6 @@
 url: "https://tyolab.github.io"
 #url: "http://localhost:4000"
-baseurl: "/web/"
+baseurl: "/web"
 
 # Site settings
 title: Grayscale
