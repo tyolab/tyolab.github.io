@@ -3,4 +3,4 @@
 
 
 
-It is powered by GitHub and Jekyll, and themed by [agency-jekyll-theme](http://y7kim.github.io/agency-jekyll-theme/).
+It is powered by GitHub and Jekyll, and themed by [Grayscale](http://ironsummitmedia.github.io/startbootstrap-grayscale/).
