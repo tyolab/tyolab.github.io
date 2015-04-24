@@ -1,0 +1,154 @@
+
+.wt-header {
+	padding-top: 20px;
+	//padding-left: 40px;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+
+.wt-header-title-left {
+	background-position: left;
+	color: Black;
+	padding-left: 40px;
+	font-size: 25px;
+	font-family: serif;
+	font-weight: 100;
+	text-decoration: none;
+	text-color: Black;
+	min-height: 40px;
+	background-repeat: no-repeat;
+	background-image: url(../favicon-32x32.png);
+}
+
+.wt-content-app-store-links {
+	text-align: center;
+	padding-right: 40px;
+}
+
+.wt-content-app-store-links img {
+	width: auto;
+    height: 40px;
+}
+
+.wt-header-title-left a * {
+	color: Black;
+}
+
+@media (max-height: 600px) and (min-width: 650px) and (orientation: landscape)
+	.wt-content-main {
+	padding: 0;
+	font-size: 15px;
+}
+
+@media (min-height: 600px) and (min-width: 750px) and (orientation: landscape), (max-height: 600px) and (min-width: 650px) and (orientation: landscape)
+	.wt-content-main {
+	font-size: 16px;
+}
+
+.wt-content-main {
+	//background: url('') no-repeat;
+	//background-color: #fff;
+	//background-size: cover;
+	//background-position: center center;
+	text-align: center;
+}
+
+@media (max-height: 600px) and (min-width: 650px) and (orientation: landscape)
+.wt-content-main .wt-content-inner {
+	width: 95%;
+	max-width: 935px;
+}
+
+@media (min-height: 600px) and (min-width: 750px) and (orientation: landscape), (max-height: 600px) and (min-width: 650px) and (orientation: landscape)
+.wt-content-main .wt-content-inner {
+	width: 935px;
+	margin: auto;
+	height: auto;
+	display: inline-block;
+	vertical-align: middle;
+	overflow: hidden;
+	position: relative;
+}
+
+#phone {
+	padding-top: 5px;
+}
+
+.wt-content-main .wt-content-inner {
+	width: 935px;
+	height: 60%;
+	//margin: 0 0%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wt-content-main .wt-content-slide-show, .wt-content-main .wt-content-slide-show2 {
+	width: 320px;
+	height: 450px;
+    left: 0px; 
+    top: 0px; 
+    z-index: -1;
+    text-align: center;
+}
+
+.wt-content-main .wt-content-slide-show-bg {
+	background: url('../images/phone-bg.svg') no-repeat;
+	background-size:   contain; 
+}
+
+.wt-content-main .wt-content-slide-show img, .wt-content-main .wt-content-slide-show2 img {
+	margin-left: -65px;
+	padding-top: 35px;
+	//padding-bottom: 50px;
+    width: 200px;
+    height: auto;
+}
+
+.wt-content-main .wt-content-top {
+	//padding-top: 40px;
+	clear: both; 
+	height: 340px; 
+	//position: relative;
+}
+
+.wt-content-main .wt-content-top, .wt-content-main .wt-content-bottom {
+	width: 400px;
+	margin-left: 0px;
+	margin-right: 60px;
+}
+
+@media (min-width: 650px)
+	.wt-content-main .wt-contentslide-show {
+	//height: calc(100% - 75px);
+	//max-height: 300px;
+}
+
+.wt-content-main .wt-contentslide-show {
+	position: relative;
+}
+
+@media (min-height: 600px) and (min-width: 750px) and (orientation: landscape), (max-height: 600px) and (min-width: 650px) and (orientation: landscape)
+	.wt-content-main:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	//margin-right: -0.25em;
+}
+
+.wt-footer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: center;
+	display: block;
+}
+
+.wt-footer-copyright {
+	padding-top: 20px;
+	color: #8F9183;
+	text-align: center;
+}
