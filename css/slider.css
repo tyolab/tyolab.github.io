@@ -115,7 +115,8 @@
 .progress-bar { 
 	position:relative;
 	top:-5px;
-	width:680px; 
+	left:3px;
+	width:560px; 
 	height:5px;
 	background:#000;
 	-moz-animation:fullexpand 40s ease-out infinite;

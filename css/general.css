@@ -75,10 +75,10 @@
 }
 
 .wt-content-main .wt-content-inner {
-	width: 935px;
-	height: 60%;
-	//margin: 0 0%;
-	margin-top: 20px;
+	//width: 935px;
+	//height: 60%;
+	padding: 40px 5px 2px 25px;
+	margin-top: 80px;
 	margin-bottom: 10px;
 	text-align: center;
 	margin-left: auto;
@@ -95,15 +95,15 @@
 }
 
 .wt-content-main .wt-content-slide-show-bg {
-	background: url('../images/phone-bg.svg') no-repeat;
+	background: url('/images/phone-bg-dark.svg') no-repeat;
 	background-size:   contain; 
 }
 
 .wt-content-main .wt-content-slide-show img, .wt-content-main .wt-content-slide-show2 img {
-	margin-left: -65px;
-	padding-top: 35px;
+	margin-left: -55px;
+	padding-top: 36px;
 	//padding-bottom: 50px;
-    width: 200px;
+    width: 205px;
     height: auto;
 }
 
