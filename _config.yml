@@ -3,9 +3,12 @@ url: "https://tyolab.github.io"
 #baseurl: "/web"
 
 # Site settings
+author: Eric Tang (eric.tang@tyo.com.au)
 title: TYO Lab
 email: support@tyo.com.au
-description: "Dedication to providing advanced online technologies that make life easy."
+description: "We are a Brisbane based research / software development studio, and dedicated to providing advanced online technologies that make life easy.  We provide all sorts of IT services including consultancy / software and hardware, cloud solutions to various small businesses. Particularly, we are specilised in Android development. Contact us now for a 30 minutes free consulation session."
+
+keywords: "Brisbane, Australia, software development, android, mobile, Wikipedia, encyclopedia, Goolge Play Store, machine learning"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
